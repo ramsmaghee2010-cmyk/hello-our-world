@@ -1,0 +1,5 @@
+print(f"\nEmbedding for '{word}':\n",word_vetors[word])
+print(f" '{word}' not in vocabulary.")
+
+print(f"\nWord similar to '{word}':")
+print(word_vectors.most_similar(word))
